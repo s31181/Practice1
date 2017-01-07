@@ -13,7 +13,7 @@ html {
 @media only screen and (max-width: 723px) {
   body header {
     width: 100vw;
-    background-image: url("../img/guy_with_laptop.png");
+    background-image: url("Practice/img/guy_with_laptop.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ html {
     padding: 0; }
   .header {
     width: 100vw;
-    background-image: url("../img/guy_with_laptop.png");
+    background-image: url("Practice1/img/guy_with_laptop.png");
     background-size: contain;
     background-repeat: no-repeat; }
     .header h1 {
