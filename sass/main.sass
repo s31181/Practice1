@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Lato')
+html, body
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Lato', sans-serif
+
+html
+  max-width: 100vw
+  overflow-x: hidden
+
+
+@media only screen and (max-width: 723px)
+
+
+  body
+    header
+      width: 100vw
+      background-image: url('../../img/guy_with_laptop.png')
+      background-size: cover
+      background-position: center
+      background-repeat: no-repeat
+      text-align: center
+      padding-top: 3%
+      h1
+        font-size: 2em
+        letter-spacing: .1em
+        color: white
+      p
+        font-size: .7em
+        line-height: 1.5em
+        color: white
+        padding: 0 10%
+
+      #mouse
+        width: 3%
+        padding-top: 5%
+        padding-bottom: 5%
+    .about
+      padding-top: 5%
+      text-align: center
+      margin: 0 5%
+      padding-bottom: 5%
+      h1
+        letter-spacing: .1em
+        span
+          background: white
+          padding: 0 8%
+      p
+        letter-spacing: .1em
+        font-size: .65em
+        padding-right: 5%
+        padding-left: 5%
+        padding-bottom: 5%
+        border: 2px solid black
+        padding-top: 10%
+        margin-top: -7vh
+
+  .services
+    text-align: center
+    font-size: 1em
+
+    h1
+      font-size: 2em
+      color: white
+      margin-top: -35%
+      span
+        display: inline-block
+        position: relative
+      //---this applies that white line with runs through the top of the border property in "services"
+      span:before, span:after
+        content: ""
+        position: absolute
+        border-top: 2px solid white
+        margin-top: 10%
+        width: 10vw
+      span:before
+        right: 100%
+        border-left: 2px solid white
+        margin-right: 10vw
+      span:after
+        left: 100%
+        border-right: 2px solid white
+        margin-left: 10vw
+    p
+      font-size: 1.5vw
+      line-height: 1.5em
+      //padding-left: 5%
+      //padding-right: 5%
+      color: white
+      border-right: 2px solid white
+      letter-spacing: .1em
+    #tablet
+      width: 100vw
+      height: 40vw
+      z-index: -1
+  .weDo
+    text-align: center
+    margin-top: 15%
+    h1
+      letter-spacing: .1em
+      span
+        background: white
+        padding: 0 4%
+    .container
+      border: 2px solid black
+      margin-left: 5%
+      margin-right: 5%
+      padding-top: 10%
+      margin-top: -6vh
+      padding-left: 5%
+      padding-right: 5%
+      margin-bottom: 5%
+      h2
+        letter-spacing: .2em
+        padding-top: 2%
+        padding-bottom: 4%
+      p
+        line-height: 1.5em
+        font-size: 2.3vw
+        padding-bottom: 10%
+
+  .ourWorks
+    img
+      height: 40vw
+      width: 100vw
+      padding-bottom: 20px
+    h2
+      font-size: 2.5em
+      color: white
+      margin-top: -25vw
+      margin-bottom: 14vw
+  .contact
+    text-align: center
+    padding-top: 10%
+    h1
+      font-size: 2em
+      letter-spacing: .1em
+      span
+        background: white
+        padding: 0 5%
+    .contain
+      border: 2px solid black
+      margin-left: 5%
+      margin-right: 5%
+      padding: 10% 5%
+      margin-top: -7vh
+      margin-bottom: 5%
+      p
+        line-height: 1.7em
+        font-size: 2.3vw
+        padding-bottom: 7%
+    button
+      background: black
+      color: white
+      width: 40vw
+      height: 7vh
+  footer
+    text-align: center
+
+
+//_________________END OF MOBILE____START OF DESKTOP________
+
+@media only screen and (min-width: 724px)
+  html, body
+    margin: 0
+    padding: 0
+  .header
+    width: 100vw
+    background-image: url('../../img/guy_with_laptop.png')
+    background-size: contain
+    background-repeat: no-repeat
+
+    h1
+      padding-top: 1vw
+      text-align: center
+      color: #ffffff
+      font-size: 3vw
+      letter-spacing: .15em
+      //padding-left: 5%
+
+
+    p
+      text-align: center
+      color: #e0e4eb
+      font-size: 1.2vw
+      line-height: 150%
+      letter-spacing: .15em
+      //padding-left: 5%
+
+    #guy_laptop
+      width: 100%
+    #Logo
+      display: block
+      //position: absolute
+      padding-top: 15vw
+      margin-left: 48%
+      //margin: 0 auto
+      border:solid black 5px
+      width: 4vw
+
+    #mouse
+      margin-left: 49%
+      padding-top: 10%
+      width: 1.3vw
+      padding-bottom: 10%
+
+  .about
+    padding-top: 2%
+    text-align: center
+    margin-left: 25vw
+    margin-right: 25vw
+    padding-bottom: 5%
+    width: auto
+    //background: blue
+    h1
+      padding-bottom: 7%
+      font-size: 2.5vw
+      letter-spacing: .17em
+      span
+        background: white
+        padding: 0 12%
+
+    p
+      color: #8f8f8f
+      padding: 10%
+      margin-top: -13%
+      border: 4px solid black
+      font-size: 1vw
+
+
+  // --- Services ---
+
+
+  .services
+    text-align: center
+    height: 20vw
+    padding-bottom: 10%
+    margin-left: 24vw
+    margin-right: 25vw
+    display: table
+    width: auto
+
+    h1
+      padding-top: 6%
+      font-size: 2.5vw
+      color: white
+      letter-spacing: .17em
+      width: auto
+      span
+        display: inline-block
+        position: relative
+        margin-left: 21.5%
+      //---this applies that white line with runs through the top of the border property in "services"
+      span:before, span:after
+        content: ""
+        position: absolute
+        border-top: 4px solid white
+        margin-top: 10%
+        width: 11.78vw
+      span:before
+        right: 100%
+        margin-right: 40%
+      span:after
+        left: 100%
+        margin-left: 40%
+      p
+        letter-spacing: 0
+        color: white
+        padding: 10%
+        margin-top: -3.5%
+        border-bottom: 4px solid white
+        border-left: 4px solid white
+        border-right: 4px solid white
+        font-size: 1vw
+        width: 100%
+        line-height: 1.7em
+        padding-bottom: 5%
+  #tablet
+    position: absolute
+    margin-left: -46%
+    width: 100vw
+    z-index: -1
+
+  .weDo
+    text-align: center
+    padding-bottom: 10%
+    h1
+      letter-spacing: .2em
+      span
+        background-color: white
+        padding: 0 5%
+
+    .container
+      border: 4px solid black
+      margin-left: 25vw
+      margin-right: 25vw
+      line-height: 1.6em
+      padding-top: 10%
+      margin-top: -3.5%
+      padding-bottom: 3%
+      padding-left: 5%
+      padding-right: 5%
+      p
+        color: #8f8f8f
+        padding-bottom: 15%
+        padding-top: 3%
+        line-height: 2vw
+        font-size: .65em
+        letter-spacing: .5px
+      h2
+        padding-top: 4%
+        font-size: 1em
+        letter-spacing: .1em
+  .ourWorks
+    margin-bottom: 30%
+    .top
+      display: inline-block
+      position: relative
+      width: 100vw
+      float: left
+      img
+        padding-bottom: 4px
+        height: 12.2vw
+        float: left
+      h2
+        position: absolute
+        color: white
+      h2:nth-child(2)
+        margin-top: 8%
+        margin-left: 3%
+      h2:nth-child(4)
+        margin-top: 8%
+        margin-left: 32%
+      h2:nth-child(6)
+        margin-left: 73%
+        margin-top: 8%
+      #top_middle
+        padding-right: 8px
+        padding-left: 8px
+    .bottom
+      display: inline-grid
+      position: relative
+      width: 100vw
+      float: left
+      img
+        height: 12.2vw
+        float: left
+      h2
+        position: absolute
+        color: white
+      h2:nth-child(2)
+        margin-top: 8%
+        margin-left: 3%
+      h2:nth-child(4)
+        margin-top: 8%
+        margin-left: 32%
+      h2:nth-child(6)
+        margin-left: 73%
+        margin-top: 8%
+      #bottom_middle
+        padding-right: 8px
+        padding-left: 8px
+  .contact
+    text-align: center
+    padding-bottom: 10%
+    h1
+      letter-spacing: .1em
+      span
+          background: white
+          padding: 0 7%
+    .contain
+      border: 4px solid black
+      margin-left: 25vw
+      margin-right: 25vw
+      margin-top: -4%
+      padding-bottom: 5%
+    p
+      color: #8f8f8f
+      letter-spacing: .08em
+      font-size: .7em
+      padding: 0 5%
+      padding-top: 10%
+      padding-bottom: 5%
+      line-height: 1.5em
+    button
+      width: 22vw
+      height: 4vw
+      border: none
+      background: #3c3c3c
+      color: white
+      font-size: 1em
+      letter-spacing: .65em
+    button:hover
+      cursor: pointer
+  footer
+    text-align: center
+    padding-bottom: 10%
+    color: #8f8f8f
+    margin-left: 4%
+    #footerLogo
+      position: absolute
+      display: table
+      margin-left: 31%
+      width: 4%
+      margin-top: -1.5%
