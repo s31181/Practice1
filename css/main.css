@@ -163,9 +163,9 @@ html {
     html h1, body h1 {
       font-size: 2.81vw; }
     html h2, body h2 {
-      font-size: 1.88vw; }
+      font-size: 2vw; }
     html p, body p {
-      font-size: .9vw;
+      font-size: 1vw;
       letter-spacing: .1vw;
       line-height: 1.5vw; }
   .header {
@@ -198,8 +198,8 @@ html {
   .about {
     padding-top: 23.6vh;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20vw;
+    margin-right: 20vw;
     padding-bottom: 23.6vh;
     width: auto; }
     .about h2 {
@@ -236,7 +236,7 @@ html {
         position: absolute;
         border-top: 2px solid white;
         margin-top: 10%;
-        width: 11.8vw; }
+        width: 16vw; }
       .services h2 span:before {
         right: 100%;
         margin-right: 70%; }
@@ -247,23 +247,27 @@ html {
         margin-top: -1.1vw;
         padding-top: 5vw;
         padding-bottom: 2vw;
-        margin-left: 25vw;
-        margin-right: 25vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
         border-right: 2px solid white;
         border-left: 2px solid white;
         border-bottom: 2px solid white; }
   .weDo {
     text-align: center;
     padding-bottom: 10%; }
+    .weDo h3 {
+      letter-spacing: .2em;
+      padding-top: 2%; }
     .weDo h2 {
+      padding-top: 2%;
       letter-spacing: .2em; }
       .weDo h2 span {
         background-color: white;
         padding: 0 5%; }
     .weDo .container {
       border: 2px solid black;
-      margin-left: 25%;
-      margin-right: 25%;
+      margin-left: 20vw;
+      margin-right: 20vw;
       line-height: 1.6em;
       padding-left: 1%;
       padding-right: 1%;
@@ -344,8 +348,8 @@ html {
         padding: 0 7%; }
     .contact .contain {
       border: 2px solid black;
-      margin-left: 25vw;
-      margin-right: 25vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
       margin-top: -3%;
       padding-bottom: 5%; }
     .contact p {
