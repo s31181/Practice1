@@ -7,8 +7,7 @@ body {
   font-family: 'Lato', sans-serif; }
 
 html {
-  max-width: 100vw;
-  overflow-x: hidden; }
+  max-width: 100vw; }
 
 @media only screen and (max-width: 723px) {
   body header {
@@ -160,23 +159,30 @@ html {
   html, body {
     margin: 0;
     padding: 0; }
+    html h1, body h1 {
+      font-size: 2.81vw; }
+    html h2, body h2 {
+      font-size: 1.88vw; }
+    html p, body p {
+      font-size: .8vw;
+      letter-spacing: .1vw;
+      line-height: 1.5vw; }
   .header {
-    width: 100vw;
     background-image: url("../img/guy_with_laptop.png");
-    background-size: contain;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat; }
     .header h1 {
       padding-top: 1vw;
       text-align: center;
       color: #ffffff;
-      font-size: 3vw;
       letter-spacing: .15em; }
     .header p {
       text-align: center;
       color: #e0e4eb;
-      font-size: 1.2vw;
       line-height: 150%;
-      letter-spacing: .15em; }
+      letter-spacing: .15em;
+      font-size: .78vw; }
     .header #guy_laptop {
       width: 100%; }
     .header #Logo {
@@ -190,97 +196,87 @@ html {
       width: 1.3vw;
       padding-bottom: 10%; }
   .about {
-    padding-top: 2%;
+    padding-top: 23.6vh;
     text-align: center;
-    margin-left: 25vw;
-    margin-right: 25vw;
-    padding-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 23.6vh;
     width: auto; }
-    .about h1 {
+    .about h2 {
       padding-bottom: 7%;
-      font-size: 2.5vw;
       letter-spacing: .17em; }
-      .about h1 span {
+      .about h2 span {
         background: white;
         padding: 0 12%; }
     .about p {
       color: #8f8f8f;
-      padding: 10%;
-      margin-top: -13%;
-      border: 4px solid black;
-      font-size: 1vw; }
+      padding-top: 4vw;
+      padding-bottom: 2vw;
+      padding-right: 15%;
+      padding-left: 15%;
+      margin-top: -12%;
+      border: 2px solid black; }
   .services {
+    background-image: url("../img/Layer_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
-    height: 20vw;
     padding-bottom: 10%;
-    margin-left: 24vw;
-    margin-right: 25vw;
-    display: table;
-    width: auto; }
-    .services h1 {
-      padding-top: 6%;
-      font-size: 2.5vw;
+    width: 100vw; }
+    .services h2 {
+      padding-top: 5%;
       color: white;
       letter-spacing: .17em;
       width: auto; }
-      .services h1 span {
+      .services h2 span {
         display: inline-block;
-        position: relative;
-        margin-left: 21.5%; }
-      .services h1 span:before, .services h1 span:after {
+        position: relative; }
+      .services h2 span:before, .services h2 span:after {
         content: "";
         position: absolute;
-        border-top: 4px solid white;
+        border-top: 2px solid white;
         margin-top: 10%;
-        width: 11.78vw; }
-      .services h1 span:before {
+        width: 11.8vw; }
+      .services h2 span:before {
         right: 100%;
-        margin-right: 40%; }
-      .services h1 span:after {
+        margin-right: 70%; }
+      .services h2 span:after {
         left: 100%;
-        margin-left: 40%; }
-      .services h1 p {
-        letter-spacing: 0;
-        color: white;
-        padding: 10%;
-        margin-top: -3.5%;
-        border-bottom: 4px solid white;
-        border-left: 4px solid white;
-        border-right: 4px solid white;
-        font-size: 1vw;
-        width: 100%;
-        line-height: 1.7em;
-        padding-bottom: 5%; }
-  #tablet {
-    position: absolute;
-    margin-left: -46%;
-    width: 100vw;
-    z-index: -1; }
+        margin-left: 70%; }
+      .services h2 p {
+        margin-top: -1.1vw;
+        padding-top: 5vw;
+        padding-bottom: 2vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white; }
   .weDo {
     text-align: center;
     padding-bottom: 10%; }
-    .weDo h1 {
+    .weDo h2 {
       letter-spacing: .2em; }
-      .weDo h1 span {
+      .weDo h2 span {
         background-color: white;
         padding: 0 5%; }
     .weDo .container {
-      border: 4px solid black;
-      margin-left: 25vw;
-      margin-right: 25vw;
+      border: 2px solid black;
+      margin-left: 25%;
+      margin-right: 25%;
       line-height: 1.6em;
       padding-top: 10%;
-      margin-top: -3.5%;
+      margin-top: -3%;
       padding-bottom: 3%;
-      padding-left: 5%;
-      padding-right: 5%; }
+      padding-left: 7%;
+      padding-right: 7%; }
+      .weDo .container img {
+        width: 15%; }
       .weDo .container p {
         color: #8f8f8f;
         padding-bottom: 15%;
         padding-top: 3%;
-        line-height: 2vw;
-        font-size: .65em;
-        letter-spacing: .5px; }
+        line-height: 2vw; }
       .weDo .container h2 {
         padding-top: 4%;
         font-size: 1em;
@@ -292,22 +288,24 @@ html {
       position: relative;
       width: 100vw;
       float: left; }
-      .ourWorks .top img {
+      .ourWorks .top a img {
         padding-bottom: 4px;
         height: 12.2vw;
         float: left; }
-      .ourWorks .top h2 {
+      .ourWorks .top a h2 {
         position: absolute;
         color: white; }
-      .ourWorks .top h2:nth-child(2) {
+      .ourWorks .top a h2:nth-child(2) {
         margin-top: 8%;
         margin-left: 3%; }
-      .ourWorks .top h2:nth-child(4) {
+      .ourWorks .top a #joint {
         margin-top: 8%;
         margin-left: 32%; }
-      .ourWorks .top h2:nth-child(6) {
+      .ourWorks .top a #market {
         margin-left: 73%;
         margin-top: 8%; }
+      .ourWorks .top a:hover img {
+        opacity: 0.5; }
       .ourWorks .top #top_middle {
         padding-right: 8px;
         padding-left: 8px; }
@@ -316,42 +314,43 @@ html {
       position: relative;
       width: 100vw;
       float: left; }
-      .ourWorks .bottom img {
+      .ourWorks .bottom a img {
         height: 12.2vw;
         float: left; }
-      .ourWorks .bottom h2 {
+      .ourWorks .bottom a h2 {
         position: absolute;
         color: white; }
-      .ourWorks .bottom h2:nth-child(2) {
+      .ourWorks .bottom a h2:nth-child(2) {
         margin-top: 8%;
         margin-left: 3%; }
-      .ourWorks .bottom h2:nth-child(4) {
+      .ourWorks .bottom a #lable {
         margin-top: 8%;
         margin-left: 32%; }
-      .ourWorks .bottom h2:nth-child(6) {
+      .ourWorks .bottom a #kyiv {
         margin-left: 73%;
         margin-top: 8%; }
+      .ourWorks .bottom a:hover img:hover {
+        opacity: 0.5; }
       .ourWorks .bottom #bottom_middle {
         padding-right: 8px;
         padding-left: 8px; }
   .contact {
     text-align: center;
     padding-bottom: 10%; }
-    .contact h1 {
+    .contact h2 {
       letter-spacing: .1em; }
-      .contact h1 span {
+      .contact h2 span {
         background: white;
         padding: 0 7%; }
     .contact .contain {
-      border: 4px solid black;
+      border: 2px solid black;
       margin-left: 25vw;
       margin-right: 25vw;
-      margin-top: -4%;
+      margin-top: -3%;
       padding-bottom: 5%; }
     .contact p {
       color: #8f8f8f;
       letter-spacing: .08em;
-      font-size: .7em;
       padding: 0 5%;
       padding-top: 10%;
       padding-bottom: 5%;
@@ -362,7 +361,6 @@ html {
       border: none;
       background: #3c3c3c;
       color: white;
-      font-size: 1em;
       letter-spacing: .65em; }
     .contact button:hover {
       cursor: pointer; }
