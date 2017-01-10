@@ -13,12 +13,14 @@ html {
 @media only screen and (max-width: 723px) {
   body header {
     width: 100vw;
+    height: 100vh;
     background-image: url("../img/guy_with_laptop.png");
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 3%; }
+    text-align: center; }
+    body header #Logo {
+      padding-top: 50%; }
     body header h1 {
       font-size: 2em;
       letter-spacing: .1em;
@@ -30,16 +32,15 @@ html {
       padding: 0 10%; }
     body header #mouse {
       width: 3%;
-      padding-top: 5%;
-      padding-bottom: 5%; }
+      padding-top: 5%; }
   body .about {
     padding-top: 5%;
     text-align: center;
     margin: 0 5%;
     padding-bottom: 5%; }
-    body .about h1 {
+    body .about h2 {
       letter-spacing: .1em; }
-      body .about h1 span {
+      body .about h2 span {
         background: white;
         padding: 0 8%; }
     body .about p {
@@ -50,40 +51,42 @@ html {
       padding-bottom: 5%;
       border: 2px solid black;
       padding-top: 10%;
-      margin-top: -7vh; }
+      margin-top: -5vh; }
   .services {
     text-align: center;
-    font-size: 1em; }
-    .services h1 {
+    font-size: 1em;
+    background-image: url("../img/Layer_4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vw; }
+    .services h2 {
       font-size: 6vw;
       color: white;
-      margin-top: -40%; }
-      .services h1 span {
+      padding-top: 5%; }
+      .services h2 span {
         display: inline-block;
-        position: relative;
-        margin-left: -.2%; }
-      .services h1 span:before, .services h1 span:after {
+        position: relative; }
+      .services h2 span:before, .services h2 span:after {
         content: "";
         position: absolute;
         border-top: 2px solid white;
         margin-top: 10%;
-        width: 20.1vw; }
-      .services h1 span:before {
+        width: 21.5vw; }
+      .services h2 span:before {
         right: 100%;
         margin-right: 10vw; }
-      .services h1 span:after {
+      .services h2 span:after {
         left: 100%;
         margin-left: 10vw; }
     .services p {
       font-size: 1.88vw;
       line-height: 2.5vw;
-      position: absolute;
+      position: relative;
       display: block;
       border-right: 2px solid white;
       border-left: 2px solid white;
       border-bottom: 2px solid white;
-      padding-left: 5%;
-      padding-right: 5%;
       padding-top: 7%;
       padding-bottom: 5%;
       color: white;
@@ -91,23 +94,20 @@ html {
       margin-top: -4.3vw;
       margin-left: 5vw;
       margin-right: 5vw; }
-    .services #tablet {
-      width: 100vw;
-      height: 45vw; }
   .weDo {
     text-align: center;
-    margin-top: 40%; }
-    .weDo h1 {
+    margin-top: 20%; }
+    .weDo h2 {
       letter-spacing: .1em; }
-      .weDo h1 span {
+      .weDo h2 span {
         background: white;
         padding: 0 4%; }
     .weDo .container {
       border: 2px solid black;
       margin-left: 5%;
       margin-right: 5%;
-      padding-top: 10%;
-      margin-top: -6vh;
+      padding-top: 10vw;
+      margin-top: -7.5vw;
       padding-left: 5%;
       padding-right: 5%;
       margin-bottom: 5%; }
@@ -119,6 +119,8 @@ html {
         line-height: 1.5em;
         font-size: 2.3vw;
         padding-bottom: 10%; }
+  .ourWorks a {
+    text-decoration: none; }
   .ourWorks img {
     height: 40vw;
     width: 100vw;

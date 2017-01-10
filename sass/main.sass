@@ -17,12 +17,14 @@ html
   body
     header
       width: 100vw
+      height: 100vh
       background-image: url('../img/guy_with_laptop.png')
       background-size: cover
-      background-position: center
+      background-position: right
       background-repeat: no-repeat
       text-align: center
-      padding-top: 3%
+      #Logo
+        padding-top: 50%
       h1
         font-size: 2em
         letter-spacing: .1em
@@ -36,13 +38,12 @@ html
       #mouse
         width: 3%
         padding-top: 5%
-        padding-bottom: 5%
     .about
       padding-top: 5%
       text-align: center
       margin: 0 5%
       padding-bottom: 5%
-      h1
+      h2
         letter-spacing: .1em
         span
           background: white
@@ -55,27 +56,30 @@ html
         padding-bottom: 5%
         border: 2px solid black
         padding-top: 10%
-        margin-top: -7vh
+        margin-top: -5vh
 
   .services
     text-align: center
     font-size: 1em
-    h1
+    background-image: url('../img/Layer_4.png')
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    height: 40vw
+    h2
       font-size: 6vw
       color: white
-      margin-top: -40%
-
+      padding-top: 5%
       span
         display: inline-block
         position: relative
-        margin-left: -.2%
       //---this applies that white line with runs through the top of the border property in "services"
       span:before, span:after
         content: ""
         position: absolute
         border-top: 2px solid white
         margin-top: 10%
-        width: 20.1vw
+        width: 21.5vw
       span:before
         right: 100%
         margin-right: 10vw
@@ -85,13 +89,13 @@ html
     p
       font-size: 1.88vw
       line-height: 2.5vw
-      position: absolute
+      position: relative
       display: block
       border-right: 2px solid white
       border-left: 2px solid white
       border-bottom: 2px solid white
-      padding-left: 5%
-      padding-right: 5%
+      //padding-left: 5%
+      //padding-right: 5%
       padding-top: 7%
       padding-bottom: 5%
       color: white
@@ -99,14 +103,12 @@ html
       margin-top: -4.3vw
       margin-left: 5vw
       margin-right: 5vw
-    #tablet
-      width: 100vw
-      height: 45vw
+
 
   .weDo
     text-align: center
-    margin-top: 40%
-    h1
+    margin-top: 20%
+    h2
       letter-spacing: .1em
       span
         background: white
@@ -115,8 +117,8 @@ html
       border: 2px solid black
       margin-left: 5%
       margin-right: 5%
-      padding-top: 10%
-      margin-top: -6vh
+      padding-top: 10vw
+      margin-top: -7.5vw
       padding-left: 5%
       padding-right: 5%
       margin-bottom: 5%
@@ -130,6 +132,8 @@ html
         padding-bottom: 10%
 
   .ourWorks
+    a
+      text-decoration: none
     img
       height: 40vw
       width: 100vw
